@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Home Page</h1>
+        <nav>
+            <ul>
+                <p>Já possui conta? Entre agora mesmo!</p>
+                <li><button id="loginButton">Login</button></li>
+                <p>É novo por aqui? <br> Crie agora mesmo sua conta!</p>
+                <li><button id="CriarButton">Criar conta</button></li>
+                <!-- Adicione mais links de navegação conforme necessário -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Esta é a página inicial da sua aplicação.</p>
+        <!-- Adicione mais conteúdo conforme necessário -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("loginButton").addEventListener("click", function() {
+            window.location.href = "fazer login/login_index.html";
+        });
+        document.getElementById("CriarButton").addEventListener("click", function() {
+            window.location.href = "criar conta/criar_index.html";
+        });
+    </script>
+</body>
+</html>
